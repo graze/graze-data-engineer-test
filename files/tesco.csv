@@ -1,0 +1,241 @@
+retailer,store,product_id,product_name,week_commencing,metric,value
+Tesco,Manchester,1,Graze BBQ Crunch,03/05/2019,sales units,109
+Tesco,Manchester,1,Graze BBQ Crunch,10/05/2019,sales units,45
+Tesco,Manchester,1,Graze BBQ Crunch,17/05/2019,sales units,294
+Tesco,Manchester,2,Graze Veggie Protein Power,03/05/2019,sales units,33
+Tesco,Manchester,2,Graze Veggie Protein Power,10/05/2019,sales units,143
+Tesco,Manchester,2,Graze Veggie Protein Power,17/05/2019,sales units,39
+Tesco,Manchester,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,61
+Tesco,Manchester,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,329
+Tesco,Manchester,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,284
+Tesco,Manchester,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,310
+Tesco,Manchester,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,220
+Tesco,Manchester,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,137
+Tesco,Liverpool,1,Graze BBQ Crunch,03/05/2019,sales units,259
+Tesco,Liverpool,1,Graze BBQ Crunch,10/05/2019,sales units,195
+Tesco,Liverpool,1,Graze BBQ Crunch,17/05/2019,sales units,212
+Tesco,Liverpool,2,Graze Veggie Protein Power,03/05/2019,sales units,391
+Tesco,Liverpool,2,Graze Veggie Protein Power,10/05/2019,sales units,110
+Tesco,Liverpool,2,Graze Veggie Protein Power,17/05/2019,sales units,344
+Tesco,Liverpool,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,84
+Tesco,Liverpool,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,226
+Tesco,Liverpool,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,274
+Tesco,Liverpool,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,385
+Tesco,Liverpool,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,297
+Tesco,Liverpool,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,171
+Tesco,Newcastle,1,Graze BBQ Crunch,03/05/2019,sales units,391
+Tesco,Newcastle,1,Graze BBQ Crunch,10/05/2019,sales units,293
+Tesco,Newcastle,1,Graze BBQ Crunch,17/05/2019,sales units,364
+Tesco,Newcastle,2,Graze Veggie Protein Power,03/05/2019,sales units,347
+Tesco,Newcastle,2,Graze Veggie Protein Power,10/05/2019,sales units,120
+Tesco,Newcastle,2,Graze Veggie Protein Power,17/05/2019,sales units,228
+Tesco,Newcastle,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,145
+Tesco,Newcastle,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,181
+Tesco,Newcastle,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,111
+Tesco,Newcastle,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,231
+Tesco,Newcastle,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,215
+Tesco,Newcastle,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,343
+Tesco,Bristol,1,Graze BBQ Crunch,03/05/2019,sales units,216
+Tesco,Bristol,1,Graze BBQ Crunch,10/05/2019,sales units,72
+Tesco,Bristol,1,Graze BBQ Crunch,17/05/2019,sales units,210
+Tesco,Bristol,2,Graze Veggie Protein Power,03/05/2019,sales units,312
+Tesco,Bristol,2,Graze Veggie Protein Power,10/05/2019,sales units,156
+Tesco,Bristol,2,Graze Veggie Protein Power,17/05/2019,sales units,88
+Tesco,Bristol,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,48
+Tesco,Bristol,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,25
+Tesco,Bristol,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,235
+Tesco,Bristol,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,91
+Tesco,Bristol,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,28
+Tesco,Bristol,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,170
+Tesco,Leicester,1,Graze BBQ Crunch,03/05/2019,sales units,361
+Tesco,Leicester,1,Graze BBQ Crunch,10/05/2019,sales units,133
+Tesco,Leicester,1,Graze BBQ Crunch,17/05/2019,sales units,18
+Tesco,Leicester,2,Graze Veggie Protein Power,03/05/2019,sales units,384
+Tesco,Leicester,2,Graze Veggie Protein Power,10/05/2019,sales units,297
+Tesco,Leicester,2,Graze Veggie Protein Power,17/05/2019,sales units,23
+Tesco,Leicester,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,391
+Tesco,Leicester,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,204
+Tesco,Leicester,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,298
+Tesco,Leicester,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,126
+Tesco,Leicester,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,295
+Tesco,Leicester,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,20
+Tesco,Exeter,1,Graze BBQ Crunch,03/05/2019,sales units,347
+Tesco,Exeter,1,Graze BBQ Crunch,10/05/2019,sales units,318
+Tesco,Exeter,1,Graze BBQ Crunch,17/05/2019,sales units,373
+Tesco,Exeter,2,Graze Veggie Protein Power,03/05/2019,sales units,10
+Tesco,Exeter,2,Graze Veggie Protein Power,10/05/2019,sales units,281
+Tesco,Exeter,2,Graze Veggie Protein Power,17/05/2019,sales units,13
+Tesco,Exeter,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,302
+Tesco,Exeter,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,348
+Tesco,Exeter,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,283
+Tesco,Exeter,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,194
+Tesco,Exeter,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,128
+Tesco,Exeter,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,315
+Tesco,Norwich,1,Graze BBQ Crunch,03/05/2019,sales units,8
+Tesco,Norwich,1,Graze BBQ Crunch,10/05/2019,sales units,207
+Tesco,Norwich,1,Graze BBQ Crunch,17/05/2019,sales units,366
+Tesco,Norwich,2,Graze Veggie Protein Power,03/05/2019,sales units,366
+Tesco,Norwich,2,Graze Veggie Protein Power,10/05/2019,sales units,241
+Tesco,Norwich,2,Graze Veggie Protein Power,17/05/2019,sales units,53
+Tesco,Norwich,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,32
+Tesco,Norwich,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,114
+Tesco,Norwich,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,184
+Tesco,Norwich,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,201
+Tesco,Norwich,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,378
+Tesco,Norwich,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,331
+Tesco,Brighton,1,Graze BBQ Crunch,03/05/2019,sales units,192
+Tesco,Brighton,1,Graze BBQ Crunch,10/05/2019,sales units,294
+Tesco,Brighton,1,Graze BBQ Crunch,17/05/2019,sales units,72
+Tesco,Brighton,2,Graze Veggie Protein Power,03/05/2019,sales units,343
+Tesco,Brighton,2,Graze Veggie Protein Power,10/05/2019,sales units,383
+Tesco,Brighton,2,Graze Veggie Protein Power,17/05/2019,sales units,399
+Tesco,Brighton,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,75
+Tesco,Brighton,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,103
+Tesco,Brighton,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,112
+Tesco,Brighton,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,27
+Tesco,Brighton,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,69
+Tesco,Brighton,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,110
+Tesco,Southampton,1,Graze BBQ Crunch,03/05/2019,sales units,91
+Tesco,Southampton,1,Graze BBQ Crunch,10/05/2019,sales units,387
+Tesco,Southampton,1,Graze BBQ Crunch,17/05/2019,sales units,92
+Tesco,Southampton,2,Graze Veggie Protein Power,03/05/2019,sales units,267
+Tesco,Southampton,2,Graze Veggie Protein Power,10/05/2019,sales units,191
+Tesco,Southampton,2,Graze Veggie Protein Power,17/05/2019,sales units,399
+Tesco,Southampton,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,174
+Tesco,Southampton,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,38
+Tesco,Southampton,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,176
+Tesco,Southampton,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,159
+Tesco,Southampton,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,272
+Tesco,Southampton,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,326
+Tesco,Reading,1,Graze BBQ Crunch,03/05/2019,sales units,238
+Tesco,Reading,1,Graze BBQ Crunch,10/05/2019,sales units,304
+Tesco,Reading,1,Graze BBQ Crunch,17/05/2019,sales units,96
+Tesco,Reading,2,Graze Veggie Protein Power,03/05/2019,sales units,273
+Tesco,Reading,2,Graze Veggie Protein Power,10/05/2019,sales units,108
+Tesco,Reading,2,Graze Veggie Protein Power,17/05/2019,sales units,341
+Tesco,Reading,3,Graze Lively Lemon Flapjack,03/05/2019,sales units,84
+Tesco,Reading,3,Graze Lively Lemon Flapjack,10/05/2019,sales units,244
+Tesco,Reading,3,Graze Lively Lemon Flapjack,17/05/2019,sales units,298
+Tesco,Reading,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales units,22
+Tesco,Reading,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales units,338
+Tesco,Reading,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales units,292
+Tesco,Manchester,1,Graze BBQ Crunch,03/05/2019,sales value,£130.8
+Tesco,Manchester,1,Graze BBQ Crunch,10/05/2019,sales value,£54
+Tesco,Manchester,1,Graze BBQ Crunch,17/05/2019,sales value,£352.8
+Tesco,Manchester,2,Graze Veggie Protein Power,03/05/2019,sales value,£39.6
+Tesco,Manchester,2,Graze Veggie Protein Power,10/05/2019,sales value,£171.6
+Tesco,Manchester,2,Graze Veggie Protein Power,17/05/2019,sales value,£46.8
+Tesco,Manchester,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£73.2
+Tesco,Manchester,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£394.8
+Tesco,Manchester,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£340.8
+Tesco,Manchester,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£372
+Tesco,Manchester,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£264
+Tesco,Manchester,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£164.4
+Tesco,Liverpool,1,Graze BBQ Crunch,03/05/2019,sales value,£310.8
+Tesco,Liverpool,1,Graze BBQ Crunch,10/05/2019,sales value,£234
+Tesco,Liverpool,1,Graze BBQ Crunch,17/05/2019,sales value,£254.4
+Tesco,Liverpool,2,Graze Veggie Protein Power,03/05/2019,sales value,£469.2
+Tesco,Liverpool,2,Graze Veggie Protein Power,10/05/2019,sales value,£132
+Tesco,Liverpool,2,Graze Veggie Protein Power,17/05/2019,sales value,£412.8
+Tesco,Liverpool,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£100.8
+Tesco,Liverpool,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£271.2
+Tesco,Liverpool,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£328.8
+Tesco,Liverpool,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£462
+Tesco,Liverpool,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£356.4
+Tesco,Liverpool,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£205.2
+Tesco,Newcastle,1,Graze BBQ Crunch,03/05/2019,sales value,£469.2
+Tesco,Newcastle,1,Graze BBQ Crunch,10/05/2019,sales value,£351.6
+Tesco,Newcastle,1,Graze BBQ Crunch,17/05/2019,sales value,£436.8
+Tesco,Newcastle,2,Graze Veggie Protein Power,03/05/2019,sales value,£416.4
+Tesco,Newcastle,2,Graze Veggie Protein Power,10/05/2019,sales value,£144
+Tesco,Newcastle,2,Graze Veggie Protein Power,17/05/2019,sales value,£273.6
+Tesco,Newcastle,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£174
+Tesco,Newcastle,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£217.2
+Tesco,Newcastle,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£133.2
+Tesco,Newcastle,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£277.2
+Tesco,Newcastle,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£258
+Tesco,Newcastle,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£411.6
+Tesco,Bristol,1,Graze BBQ Crunch,03/05/2019,sales value,£259.2
+Tesco,Bristol,1,Graze BBQ Crunch,10/05/2019,sales value,£86.4
+Tesco,Bristol,1,Graze BBQ Crunch,17/05/2019,sales value,£252
+Tesco,Bristol,2,Graze Veggie Protein Power,03/05/2019,sales value,£374.4
+Tesco,Bristol,2,Graze Veggie Protein Power,10/05/2019,sales value,£187.2
+Tesco,Bristol,2,Graze Veggie Protein Power,17/05/2019,sales value,£105.6
+Tesco,Bristol,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£57.6
+Tesco,Bristol,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£30
+Tesco,Bristol,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£282
+Tesco,Bristol,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£109.2
+Tesco,Bristol,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£33.6
+Tesco,Bristol,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£204
+Tesco,Leicester,1,Graze BBQ Crunch,03/05/2019,sales value,£433.2
+Tesco,Leicester,1,Graze BBQ Crunch,10/05/2019,sales value,£159.6
+Tesco,Leicester,1,Graze BBQ Crunch,17/05/2019,sales value,£21.6
+Tesco,Leicester,2,Graze Veggie Protein Power,03/05/2019,sales value,£460.8
+Tesco,Leicester,2,Graze Veggie Protein Power,10/05/2019,sales value,£356.4
+Tesco,Leicester,2,Graze Veggie Protein Power,17/05/2019,sales value,£27.6
+Tesco,Leicester,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£469.2
+Tesco,Leicester,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£244.8
+Tesco,Leicester,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£357.6
+Tesco,Leicester,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£151.2
+Tesco,Leicester,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£354
+Tesco,Leicester,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£24
+Tesco,Exeter,1,Graze BBQ Crunch,03/05/2019,sales value,£416.4
+Tesco,Exeter,1,Graze BBQ Crunch,10/05/2019,sales value,£381.6
+Tesco,Exeter,1,Graze BBQ Crunch,17/05/2019,sales value,£447.6
+Tesco,Exeter,2,Graze Veggie Protein Power,03/05/2019,sales value,£12
+Tesco,Exeter,2,Graze Veggie Protein Power,10/05/2019,sales value,£337.2
+Tesco,Exeter,2,Graze Veggie Protein Power,17/05/2019,sales value,£15.6
+Tesco,Exeter,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£362.4
+Tesco,Exeter,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£417.6
+Tesco,Exeter,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£339.6
+Tesco,Exeter,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£232.8
+Tesco,Exeter,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£153.6
+Tesco,Exeter,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£378
+Tesco,Norwich,1,Graze BBQ Crunch,03/05/2019,sales value,£9.6
+Tesco,Norwich,1,Graze BBQ Crunch,10/05/2019,sales value,£248.4
+Tesco,Norwich,1,Graze BBQ Crunch,17/05/2019,sales value,£439.2
+Tesco,Norwich,2,Graze Veggie Protein Power,03/05/2019,sales value,£439.2
+Tesco,Norwich,2,Graze Veggie Protein Power,10/05/2019,sales value,£289.2
+Tesco,Norwich,2,Graze Veggie Protein Power,17/05/2019,sales value,£63.6
+Tesco,Norwich,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£38.4
+Tesco,Norwich,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£136.8
+Tesco,Norwich,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£220.8
+Tesco,Norwich,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£241.2
+Tesco,Norwich,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£453.6
+Tesco,Norwich,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£397.2
+Tesco,Brighton,1,Graze BBQ Crunch,03/05/2019,sales value,£230.4
+Tesco,Brighton,1,Graze BBQ Crunch,10/05/2019,sales value,£352.8
+Tesco,Brighton,1,Graze BBQ Crunch,17/05/2019,sales value,£86.4
+Tesco,Brighton,2,Graze Veggie Protein Power,03/05/2019,sales value,£411.6
+Tesco,Brighton,2,Graze Veggie Protein Power,10/05/2019,sales value,£459.6
+Tesco,Brighton,2,Graze Veggie Protein Power,17/05/2019,sales value,£478.8
+Tesco,Brighton,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£90
+Tesco,Brighton,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£123.6
+Tesco,Brighton,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£134.4
+Tesco,Brighton,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£32.4
+Tesco,Brighton,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£82.8
+Tesco,Brighton,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£132
+Tesco,Southampton,1,Graze BBQ Crunch,03/05/2019,sales value,£109.2
+Tesco,Southampton,1,Graze BBQ Crunch,10/05/2019,sales value,£464.4
+Tesco,Southampton,1,Graze BBQ Crunch,17/05/2019,sales value,£110.4
+Tesco,Southampton,2,Graze Veggie Protein Power,03/05/2019,sales value,£320.4
+Tesco,Southampton,2,Graze Veggie Protein Power,10/05/2019,sales value,£229.2
+Tesco,Southampton,2,Graze Veggie Protein Power,17/05/2019,sales value,£478.8
+Tesco,Southampton,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£208.8
+Tesco,Southampton,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£45.6
+Tesco,Southampton,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£211.2
+Tesco,Southampton,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£190.8
+Tesco,Southampton,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£326.4
+Tesco,Southampton,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£391.2
+Tesco,Reading,1,Graze BBQ Crunch,03/05/2019,sales value,£285.6
+Tesco,Reading,1,Graze BBQ Crunch,10/05/2019,sales value,£364.8
+Tesco,Reading,1,Graze BBQ Crunch,17/05/2019,sales value,£115.2
+Tesco,Reading,2,Graze Veggie Protein Power,03/05/2019,sales value,£327.6
+Tesco,Reading,2,Graze Veggie Protein Power,10/05/2019,sales value,£129.6
+Tesco,Reading,2,Graze Veggie Protein Power,17/05/2019,sales value,£409.2
+Tesco,Reading,3,Graze Lively Lemon Flapjack,03/05/2019,sales value,£100.8
+Tesco,Reading,3,Graze Lively Lemon Flapjack,10/05/2019,sales value,£292.8
+Tesco,Reading,3,Graze Lively Lemon Flapjack,17/05/2019,sales value,£357.6
+Tesco,Reading,4,Graze Cocoa & Vanilla Flapjack,03/05/2019,sales value,£26.4
+Tesco,Reading,4,Graze Cocoa & Vanilla Flapjack,10/05/2019,sales value,£405.6
+Tesco,Reading,4,Graze Cocoa & Vanilla Flapjack,17/05/2019,sales value,£350.4

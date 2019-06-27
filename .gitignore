@@ -1,0 +1,15 @@
+*~
+*.pyc
+*.swp
+
+.DS_Store
+._*
+.project
+.buildpath
+.idea
+.metadata
+.settings
+.phpstorm.meta.php
+org.eclipse.*
+
+vendor
