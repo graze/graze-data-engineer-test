@@ -64,8 +64,6 @@ If you are not familiar with the AWS SDK, below are links to the relevant Python
 - https://aws.amazon.com/sdk-for-python/
 - https://aws.amazon.com/sdk-for-php/
 
-You will also want to install the AWS CLI from https://aws.amazon.com/cli/
-
 ## Running your application
 
 To build your services, cd into either the `Python` or `PHP` sub-directory in the codebase and then run:

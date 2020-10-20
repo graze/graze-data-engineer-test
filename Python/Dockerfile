@@ -6,6 +6,8 @@ RUN pip install mysql-connector==2.2.9
 RUN pip install sqlalchemy==1.2.19
 RUN pip install pymysql==0.9.3
 RUN pip install boto3
+ENV AWS_ACCESS_KEY_ID=INSERT
+ENV AWS_SECRET_ACCESS_KEY=INSERT
 
 COPY . .
 
