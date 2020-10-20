@@ -1,25 +1,21 @@
-# Data Engineer Test 
-
-This repository contains a dockerised PHP application with a MySQL database. It is the starting point for an ETL process to import data from CSV files into a MySQL database table.
+# Overview
+This repository contains a dockerised application with a MySQL database. It is the starting point for an ETL process to import CSV files from a public AWS bucket into a MySQL database. There is the option to use either the PHP or Python Docker image, depending on what you are more comfortable with.
 
 ## Context
 Account Managers in the Retail Team at graze receive weekly sales data from each of the retailers that sell our products in their stores. 
 
 This data comes in different formats (CSV, Excel, etc), and the structure of these files are inconsistent, but ultimately they contain the same information - sales volume and value, by week, by store, by product.
 
-Rather than each Account Manager reporting on their own retailer's data, using the raw data, the Data Team centralise this data and report on all retailers' sales consistently.  
+Rather than each Account Manager reporting on their own retailer's data, using the raw data, the Data Team centralise this data and report on all retailers' sales consistently.
 
 This clean, centralised data is then accessed by Data Analysts to analyse and visualise in a business intelligence tool.
 
 ## Codebase contents
 
 The codebase consists of:
-- 2 CSVs in the `files/` directory
-    - 1 containing Waitrose sales data and 1 containing Tesco sales data
-    - Note: the data in these files is fabricated
-- a SQL file, which should contain any MySQL table definitions for your database: `schema/tables.php` 
-- an empty PHP script that needs to be written: `scripts/importFileToDatabase.php`
-- an empty directory in which to write any library code you might need to implement: `src/` (you can delete the `.keep` file in here, it doesn't serve any purpose except to add an empty directory to git)
+- an SQL file, which should contain any MySQL table definitions for your database: `schema/tables.sql` 
+- Python and PHP docker directories (ues one or the other)
+- `NOTES.md` to write your responses to the "Follow-up Questions", add any documentation for your code or add other notes that you want to provide.
 
 ## Codebase setup
 
@@ -54,43 +50,60 @@ To interact with your MySQL database, you may want to install a MySQL client if 
     1. Database: `retail`
     1. Port: `9906` 
 
+## AWS setup
+Below are the details of the bucket which contains the two CSVs for for this test. An AWS Access Key ID and Secret Access Key should have been provided to you via email. If these have not been provided, please send us an email. 
+
+Bucket Name: public.data-engineer-tech-test
+Objects:
+    - raw_files/tesco_2020_10_18.csv
+    - raw_files/sainsburys_2020_10_18.csv
+
+If you are not familiar with the AWS SDK, below are links to the relevant Python and PHP SDK documentation
+- https://aws.amazon.com/sdk-for-python/
+- https://aws.amazon.com/sdk-for-php/
+
+You will also want to install the AWS CLI from https://aws.amazon.com/cli/
+
 ## Running your application
 
-To build your services, run:
+To build your services, cd into either the `Python` or `PHP` sub-directory in the codebase and then run:
 ```
 docker-compose build
 ```
 
-To run your script, run:
+To run your script, run either:
 ```
-docker-compose run --rm application php /scripts/importFileToDatabase.php
+docker-compose run --rm application python /PHP/hello_world.py
+
+OR
+
+docker-compose run --rm application php /PHP/hello_world.php
 ```
 
-Run this before you make any changes to the script and ensure that it prints "Hello, World!". If it does, you're ready to go! (If not, get in touch - it should work!)
+Run this before you make any changes to the codebase and ensure that it prints "Hello, World!". If it does, you're ready to go! (If not, get in touch - it should work!)
 
 The first time you run this, it will be fairly slow (it needs to pull the mysql image from Docker Hub). Subsequent runs should be faster!
 
 ## Technical test:
-Aim to spend no more than 2-3 hours on the technical test. You can explain what you'd have done differently given more time in the 'Follow-up questions' section.
+Your code should, at a minimum, complete the following key data engineering steps:
 
-Write your answers to the 'Follow-up questions', along with any additional information about your implementation, in the empty markdown file: `NOTES.md`. 
+- Download raw CSV files from the AWS bucket to your local environment
+- Read, clean and transform the raw CSV data
+- Load the cleaned data into the MySQL table(s) that you have designed
 
-Please also include in `NOTES.md` instructions for how to run your code (if different to the instructions in the 'Running your application' section above).
+We do not expect a production quality solution, however we welcome and encourage you to include any best practices that you think would be useful. If you do not have time to implement everything, not to worry. Simply include details of what you would have done if you had more time in the `NOTES.md` file and we can talk through this during the interview. 
+
+In addition, please provide responses to the 'Follow-up questions' listed below in the `NOTES.md` file. 
 
 **Main exercise:**
 
 **Please add all necessary code to the repository in order to read the 2 CSVs, transform the data and load them into one analyst-ready database table.**
 
-You may want to do the following things:
-- write CREATE TABLE syntax in `schema/tables.sql` with a sensible name and table structure
-- write the script `scripts/importFileToDatabase.php`
-- add supporting classes in `src/` directory
-
-Follow-up questions:
+## Follow-up questions:
 1. How much experience do you have working with PHP?
 1. If you had more time, what further improvements would you add? If you weren't able to spend as long as you'd have liked, use this as an opportunity to tell us what you would have done differently.
 1. Imagine you were going to put this code into production. What additional features / tools might you need to consider implementing to minimise the ongoing involvement of the Data Team in the file import process?
-1. How did you find the test? We'd love to hear any improvements you might have!  
+1. How did you find the test? We'd love to hear any improvements you might have! 
 
 ## Submission
 

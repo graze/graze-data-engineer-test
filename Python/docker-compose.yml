@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  application:
+    build: .
+    volumes:
+      - ./config:/config
+      - ./files:/files
+      - ./scripts:/scripts
+      - ./src:/src
+      - ./vendor:/vendor
+    depends_on:
+          - "database"
+
+  database:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: retail
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    volumes:
+      - ./schema:/docker-entrypoint-initdb.d
+    ports:
+      - "9906:3306"
