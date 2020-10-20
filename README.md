@@ -24,6 +24,8 @@ The codebase consists of:
 ```
 git clone git@github.com:graze/graze-data-engineer-test.git graze-data-engineer-test-<your_name>
 ``` 
+1. Depending on which language you want to complete the challenge in, delete either the `PHP` or `Python` directory, as apparopriate.
+
 Note: if you're using Windows, you'll need to use a BASH emulator such as [Git BASH](https://gitforwindows.org/) for running Git (and docker) commands from the command line.
 
 ## Docker setup
@@ -73,16 +75,20 @@ docker-compose build
 
 To run your script, run either:
 ```
-docker-compose run --rm application python /PHP/hello_world.py
+docker-compose run --rm application python /temp/hello_world.py
 
 OR
 
-docker-compose run --rm application php /PHP/hello_world.php
+docker-compose run --rm application php /temp/hello_world.php
 ```
 
 Run this before you make any changes to the codebase and ensure that it prints "Hello, World!". If it does, you're ready to go! (If not, get in touch - it should work!)
 
 The first time you run this, it will be fairly slow (it needs to pull the mysql image from Docker Hub). Subsequent runs should be faster!
+
+Now that you are confident that everything is setup and working as expected, feel free to delete the `temp` directory created and add in all of the directories that you want/need for the test. 
+
+If you are not familiar with mounting volumes in Docker, simply add the directories into the codebase as required and then update the `docker-compose.yml` file to mount them.
 
 ## Technical test:
 Your code should, at a minimum, complete the following key data engineering steps:
