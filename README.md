@@ -66,12 +66,10 @@ If you are not familiar with the AWS SDK, below are links to the relevant Python
 
 ## Running your application
 
-To build your services, cd into either the `Python` or `PHP` sub-directory in the codebase and then run:
-```
-docker-compose build
-```
-
-To run your script, run either:
+Before doing any coding, to build your services:
+1. Open the `Dockerfile` and delete the `PHP Build` or `Python Build` steps as appropriate (Note: The build default is Python).
+1. From the terminal, run `docker-compose build`
+1. Run the test `hello_world` script by running either:
 ```
 docker-compose run --rm application python /temp/hello_world.py
 
@@ -80,7 +78,7 @@ OR
 docker-compose run --rm application php /temp/hello_world.php
 ```
 
-Run this before you make any changes to the codebase and ensure that it prints "Hello, World!". If it does, you're ready to go! (If not, get in touch - it should work!)
+If the above prints "Hello, World!" you're ready to go! If not, get in touch - it should work!
 
 The first time you run this, it will be fairly slow (it needs to pull the mysql image from Docker Hub). Subsequent runs should be faster!
 
