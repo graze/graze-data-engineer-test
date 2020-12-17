@@ -4,11 +4,7 @@ services:
   application:
     build: .
     volumes:
-      - ./config:/config
-      - ./files:/files
-      - ./scripts:/scripts
-      - ./src:/src
-      - ./vendor:/vendor
+      - ./temp:/temp # This is mounting a local directory onto Docker. Moint additional volumes as required
     depends_on:
           - "database"
 
