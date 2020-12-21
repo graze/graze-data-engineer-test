@@ -14,7 +14,7 @@ This clean, centralised data is then accessed by Data Analysts to analyse and vi
 
 The codebase consists of:
 - an SQL file, which should contain any MySQL table definitions for your database: `schema/tables.sql` 
-- Python and PHP docker directories (ues one or the other)
+- Python and PHP docker directories (use one or the other)
 - `NOTES.md` to write your responses to the "Follow-up Questions", add any documentation for your code or add other notes that you want to provide.
 
 ## Codebase setup
@@ -24,7 +24,7 @@ The codebase consists of:
 ```
 git clone git@github.com:graze/graze-data-engineer-test.git graze-data-engineer-test-<your_name>
 ``` 
-1. Depending on which language you want to complete the challenge in, delete either the `PHP` or `Python` directory, as apparopriate.
+1. Depending on which language you want to complete the challenge in, delete either the `PHP` or `Python` directory, as appropriate.
 
 Note: if you're using Windows, you'll need to use a BASH emulator such as [Git BASH](https://gitforwindows.org/) for running Git (and docker) commands from the command line.
 
@@ -102,7 +102,7 @@ In addition, please provide responses to the 'Follow-up questions' listed below 
 **Please add all necessary code to the repository in order to read the 2 CSVs, transform the data and load them into one analyst-ready database table.**
 
 ## Follow-up questions:
-1. How much experience do you have working with PHP?
+1. How much experience do you have working with Python? And PHP?
 1. If you had more time, what further improvements would you add? If you weren't able to spend as long as you'd have liked, use this as an opportunity to tell us what you would have done differently.
 1. Imagine you were going to put this code into production. What additional features / tools might you need to consider implementing to minimise the ongoing involvement of the Data Team in the file import process?
 1. How did you find the test? We'd love to hear any improvements you might have! 
