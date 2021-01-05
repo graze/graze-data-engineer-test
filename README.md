@@ -21,9 +21,9 @@ The codebase consists of:
 
 1. Set up a new repository on your local machine and call it something sensible (`graze-data-engineer-test-<your_name>`, where `<your_name>` is your name).
 1. Clone this GitHub repository into your new local repository: 
-```
-git clone git@github.com:graze/graze-data-engineer-test.git graze-data-engineer-test-<your_name>
-``` 
+    ```
+    git clone git@github.com:graze/graze-data-engineer-test.git graze-data-engineer-test-<your_name>
+    ``` 
 1. Depending on which language you want to complete the challenge in, delete either the `PHP` or `Python` directory, as appropriate.
 
 Note: if you're using Windows, you'll need to use a BASH emulator such as [Git BASH](https://gitforwindows.org/) for running Git (and docker) commands from the command line.
@@ -55,10 +55,11 @@ To interact with your MySQL database, you may want to install a MySQL client if 
 ## AWS setup
 Below are the details of the bucket which contains the two CSVs for for this test. An AWS Access Key ID and Secret Access Key should have been provided to you via email. If these have not been provided, please send us an email. 
 
-Bucket Name: public.data-engineer-tech-test
+Bucket Name: `public.data-engineer-tech-test`
+
 Objects:
-    - raw_files/tesco_2020_10_18.csv
-    - raw_files/sainsburys_2020_10_18.csv
+- `raw_files/tesco_2020_10_18.csv`
+- `raw_files/sainsburys_2020_10_18.csv`
 
 If you are not familiar with the AWS SDK, below are links to the relevant Python and PHP SDK documentation
 - https://aws.amazon.com/sdk-for-python/
